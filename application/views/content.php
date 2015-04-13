@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -33,10 +33,13 @@ a:hover
 <body>
 <!-- Beginning header -->
     <div>
-        <a href='<?php echo '#'?>'>Docentes</a> | 
-        <a href='<?php echo '#'?>'>Escuelas</a> |
-        <a href='<?php echo '#'?>'>Libros</a> |
-        <a href='<?php echo '#'?>'>Bibliotecas</a>
+        <a href='<?php echo site_url('examples/offices_management')?>'>Offices</a> | 
+        <a href='<?php echo site_url('examples/employees_management')?>'>Employees</a> |
+        <a href='<?php echo site_url('examples/customers_management')?>'>Customers</a> |
+        <a href='<?php echo site_url('examples/orders_management')?>'>Orders</a> |
+        <a href='<?php echo site_url('examples/products_management')?>'>Products</a> | 
+        <a href='<?php echo site_url('examples/film_management')?>'>Films</a>
+ 
     </div>
 <!-- End of header-->
     <div style='height:20px;'></div>  
@@ -45,7 +48,8 @@ a:hover
  
     </div>
 <!-- Beginning footer -->
-<div></div>
+<div>Footer</div>
 <!-- End of Footer -->
 </body>
 </html>
+ 
