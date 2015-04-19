@@ -15,6 +15,7 @@ class Libros extends CI_Controller {
     
     {
         $this->grocery_crud->set_table('libro');
+        $this->grocery_crud->set_language('spanish');
         $output =$this->grocery_crud->render();
         $this->libro($output);
     }

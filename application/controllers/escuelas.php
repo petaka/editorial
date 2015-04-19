@@ -15,6 +15,7 @@ class Escuelas extends CI_Controller {
     
     {
         $this->grocery_crud->set_table('escuela');
+        $this->grocery_crud->set_language('spanish');
         $output =$this->grocery_crud->render();
         $this->escuela($output);
     }
