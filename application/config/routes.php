@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = '';
+$route['default_controller'] = 'libros';
 $route['404_override'] = '';
 
 

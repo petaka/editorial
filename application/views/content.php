@@ -32,7 +32,15 @@ a:hover
 </head>
 <body>
 <!-- Beginning header -->
-    <div>Header</div>
+    <ul>
+        <li><a href="<?php base_url(); ?>/editorial/index.php/docentes">Docentes</a></li>
+        <li><a href="<?php base_url(); ?>/editorial/index.php/cargos">Cargos</a></li>
+        <li><a href="<?php base_url(); ?>/editorial/index.php/escuelas">Escuelas</a></li>
+        <li><a href="<?php base_url(); ?>/editorial/index.php/docenteEscuelas">Relacionar Docentes -> Escuelas</a></li>
+        <li><a href="<?php base_url(); ?>/editorial/index.php/libros">Libros</a></li>
+        <li><a href="<?php base_url(); ?>/editorial/index.php/colecciones">Colecciones</a></li>
+        <li><a href="<?php base_url(); ?>/editorial/index.php/libroDocentes">Relacionar Libros -> Docentes</a></li>
+    </ul>
 <!-- End of header-->
     <div style='height:20px;'></div>  
     <div>

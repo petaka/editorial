@@ -1,6 +1,6 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
  
-class Cursos extends CI_Controller {
+class Cargos extends CI_Controller {
 
     function __construct()
     {
@@ -21,10 +21,10 @@ class Cursos extends CI_Controller {
         //$crud->set_theme('flexigrid');
      
         /* Seleccionmos el nombre de la tabla de nuestra base de datos*/
-        $this->grocery_crud->set_table('curso');
+        $this->grocery_crud->set_table('cargo');
      
         /* Le asignamos un nombre */
-        $this->grocery_crud->set_subject('Curso');
+        $this->grocery_crud->set_subject('Cargos');
      
         /* Asignamos el idioma español */
         $this->grocery_crud->set_language('spanish');
@@ -41,10 +41,10 @@ class Cursos extends CI_Controller {
           'proveedor',
         );*/
         $output =$this->grocery_crud->render();
-        $this->curso($output);
+        $this->cargos($output);
     }
 
-    function curso($output)
+    function cargos($output)
  
     {
         $this->load->view('content',$output);    
