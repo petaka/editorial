@@ -18,7 +18,7 @@ class Docentes extends CI_Controller {
       
         $this->grocery_crud->set_table('persona');
         $this->grocery_crud->set_relation_n_n('escuelas', 'persona_escuela', 'escuela', 'dni', 'id_escuela', 'nombre');
-        $this->grocery_crud->set_relation_n_n('cursos_por_escuela', 'persona_curso', 'curso', 'dni', 'grado', 'grado');
+      //  $this->grocery_crud->set_relation_n_n('cursos_por_escuela', 'persona_curso', 'curso', 'dni', 'grado', 'grado');
         $this->grocery_crud->set_language('spanish');
         $output =$this->grocery_crud->render();
         

@@ -17,8 +17,8 @@ class Personas extends CI_Controller {
         
       
         $this->grocery_crud->set_table('persona_escuela_curso');
-        $this->grocery_crud->set_relation('id_persona','persona','nombre');
-        $this->grocery_crud->set_relation('id_persona','persona','apellido');
+        //$this->grocery_crud->set_relation('id_persona','persona','nombre');
+        //$this->grocery_crud->set_relation('id_persona','persona','apellido');
         $this->grocery_crud->set_language('spanish');
         $output =$this->grocery_crud->render();
         
